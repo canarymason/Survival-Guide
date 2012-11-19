@@ -1,3 +1,4 @@
+-@kit_internal = true
 !!! 5
 <!--[if lt IE 7]><html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
 <!--[if IE 7]><html class="no-js lt-ie9 lt-ie8 ie7"> <![endif]-->
@@ -7,11 +8,13 @@
   <!--<![endif]-->
   = render :template => "partials/_head.haml"
   = render :template => "partials/_webfonts.haml"
-  %body
+  - @classes = 'survival-kit documentation'
+  %body{:class => [@classes]}
+    = render :template => "/survivalkit/partials/_header.haml"
+    = render :template => "/partials/_menu.haml"
     #page
-      %header
-      #main{ :role => "main" }
+      #main{:role => "main"}
         = yield
-      %footer
+      %footer= @footer
     = render :template => "partials/_frameworks.haml"
     = render :template => "partials/_footer.haml"

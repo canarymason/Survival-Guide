@@ -1,0 +1,27 @@
+// This file establishes simple clean default font stacks
+
+// Default font stacks
+$font-sans: sans-serif;
+$font-serifs: Georgia, serif;
+$font-mono: Consolas, Menlo, "Courier New", monospace, monospace;
+
+// General font variables
+$font-body: $font-serifs;
+$font-headline: $font-sans;
+$font-logo: $font-sans;
+
+// Special use font variables
+// ampersands
+$font-amp: $font-serifs;
+// caps
+$font-cap: $font-sans;
+
+
+////////////////////////////
+// FONT-AWESOME
+// uncomment to include
+//
+// http://fortawesome.github.com/Font-Awesome/
+////////////////////////////
+// $fontAwesomePath: "../fonts/fontawesome-webfont";
+// @import 'survivalkit/fonts/font-awesome';
