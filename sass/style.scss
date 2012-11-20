@@ -13,6 +13,17 @@
 // should help you put these files in order.
 // ---------------------------------------------------------------------------------------
 
+<<<<<<< HEAD
+=======
+// ✔ IMPORT COMPASS AND OTHER GEMS
+// enable / disable, but do not edit these files
+@import "compass";
+@import "susy";
+@import "breakpoint";
+@import "modular-scale";
+// @import "toolkit";
+// add any others here
+>>>>>>> setting up serve
 
 // THE FIRST IMPORTS ADD NO CSS UPON COMPILE
 
@@ -26,6 +37,7 @@
 // edit these as you see fit
 @import "partials/01-variables/all";
 
+<<<<<<< HEAD
 // ✔ IMPORT COMPASS AND OTHER GEMS
 // enable / disable, but do not edit these files
 @import "compass";
@@ -34,6 +46,8 @@
 @import "modular-scale";
 @import "toolkit";
 // add any others here
+=======
+>>>>>>> setting up serve
 
 // ✔ IMPORT COMMON MIXINS
 // enable / disable, but do not edit these files
@@ -79,7 +93,11 @@
 // ✔ YOUR CUSTOM LAYOUT AND DESIGN SASS
 // THIS IS WHERE MOST CUSTOM WORK WILL GO
 // -- PRIMARY DESIGN --
+<<<<<<< HEAD
 @import "survival-kit";
+=======
+@import "your-design-here/design";
+>>>>>>> setting up serve
 
 // ------ OR ------
 // -- ✔ 7. STYLE TILE DESIGN --

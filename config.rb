@@ -1,12 +1,12 @@
 #
 # Compass Configuration
 #
-
-require 'susy'
-require 'modular-scale'
-require 'color-schemer'
-require 'breakpoint'
-require 'toolkit'
+require 'survivalkit'
+# require 'susy'
+# require 'modular-scale'
+# require 'color-schemer'
+# require 'breakpoint'
+# require 'toolkit'
 
 # HTTP paths
 http_path             = '/'
@@ -16,8 +16,6 @@ http_images_path      = '../templates/project/files/images'
 
 # File system locations
 sass_dir              = 'sass'
-add_import_path         '../stylesheets'
-add_import_path         '../templates/shared'
 css_dir               = 'public/css'
 images_dir            = 'public/images'
 javascripts_dir       = 'public/js'

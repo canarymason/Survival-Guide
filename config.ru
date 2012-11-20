@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 #\ -p 4000
+=======
+
+>>>>>>> setting up serve
 
 require 'rubygems'
 require 'bundler'
@@ -16,6 +20,10 @@ require 'serve/rack'
 # The project root directory
 root = ::File.dirname(__FILE__)
 
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> compile sass with serve
 # Compile Sass on the fly with the Sass plugin. Some production environments
 # don't allow you to write to the file system on the fly (like Heroku).
 # Remove this conditional if you want to compile Sass in production.
@@ -23,17 +31,44 @@ if ENV['RACK_ENV'] != 'production'
   require 'sass'
   require 'sass/plugin/rack'
   require 'compass'
+<<<<<<< HEAD
   require 'susy'
   require 'modular-scale'
   require 'color-schemer'
   require 'breakpoint'
   require 'toolkit'
+=======
+  require 'survivalkit'
+>>>>>>> compile sass with serve
 
   Compass.add_project_configuration(root + '/compass.config')
   Compass.configure_sass_plugin!
 
   use Sass::Plugin::Rack  # Sass Middleware
 end
+<<<<<<< HEAD
+=======
+# # Compile Sass on the fly with the Sass plugin. Some production environments
+# # don't allow you to write to the file system on the fly (like Heroku).
+# # Remove this conditional if you want to compile Sass in production.
+# if ENV['RACK_ENV'] != 'production'
+#   require 'sass'
+#   require 'sass/plugin/rack'
+#   require 'compass'
+#   require 'susy'
+#   require 'modular-scale'
+#   require 'color-schemer'
+#   require 'breakpoint'
+#   require 'toolkit'
+
+#   Compass.add_project_configuration(root + '/compass.config')
+#   Compass.configure_sass_plugin!
+
+#   use Sass::Plugin::Rack  # Sass Middleware
+# end
+>>>>>>> setting up serve
+=======
+>>>>>>> compile sass with serve
 
 # Other Rack Middleware
 use Rack::ShowStatus      # Nice looking 404s and other messages
