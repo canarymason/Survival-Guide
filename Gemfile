@@ -7,11 +7,12 @@ gem 'serve', '1.5.1'
 
 # Use Compass and Sass
 gem 'compass', '>=0.12'
-gem 'susy', '>=1'
-gem 'modular-scale', '>=1'
-gem 'color-schemer', '>=0.1'
-gem 'breakpoint', '>=1.3'
-gem 'toolkit', '>=0.2'
+# gem 'susy', '>=1'
+gem 'survivalkit', '>=1.0.beta.8'
+# gem 'modular-scale', '>=1'
+# gem 'color-schemer', '>=0.1'
+# gem 'breakpoint', '>=1.3'
+# gem 'toolkit', '>=0.2'
 
 # Markdown and Textile
 # gem 'rdiscount' # Markdown
