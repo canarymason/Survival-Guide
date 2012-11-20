@@ -16,12 +16,6 @@ http_images_path      = '../templates/project/files/images'
 
 # File system locations
 sass_dir              = 'sass'
-<<<<<<< HEAD
-add_import_path         '../stylesheets'
-add_import_path         '../templates/shared'
-=======
-add_import_path         'sass-ui'
->>>>>>> setting up serve
 css_dir               = 'public/css'
 images_dir            = 'public/images'
 javascripts_dir       = 'public/js'
