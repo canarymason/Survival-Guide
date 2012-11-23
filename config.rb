@@ -10,9 +10,9 @@ require 'survivalkit'
 
 # HTTP paths
 http_path             = '/'
-# http_stylesheets_path = '/css'
-http_images_path      = '../templates/project/files/images'
-# http_javascripts_path = '/js'
+http_stylesheets_path = '/css'
+http_images_path      = '/images'
+http_javascripts_path = '/js'
 
 # File system locations
 sass_dir              = 'sass'

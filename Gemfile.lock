@@ -36,7 +36,7 @@ GEM
       rack-test (~> 0.5)
       tilt (~> 1.3)
       tzinfo
-    survivalkit (1.0.beta.8)
+    survivalkit (1.0.beta.10)
       breakpoint (>= 1.2)
       color-schemer (>= 0.1)
       compass (>= 0.12.2)
@@ -53,8 +53,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  compass (>= 0.12)
   haml
   maruku
   serve (= 1.5.1)
-  survivalkit (>= 1.0.beta.8)
+  survivalkit (>= 1.0.beta.10)

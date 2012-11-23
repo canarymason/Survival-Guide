@@ -6,9 +6,9 @@ gem 'serve', '1.5.1'
 # gem 'serve', :git => 'git://github.com/jlong/serve.git'
 
 # Use Compass and Sass
-gem 'compass', '>=0.12'
+# gem 'compass', '>=0.12'
 # gem 'susy', '>=1'
-gem 'survivalkit', '>=1.0.beta.8'
+gem 'survivalkit', '>=1.0.beta.10'
 # gem 'modular-scale', '>=1'
 # gem 'color-schemer', '>=0.1'
 # gem 'breakpoint', '>=1.3'
